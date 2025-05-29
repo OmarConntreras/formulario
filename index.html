@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro - Omar Contreras</title>
+</head>
+<body>
+    <h2>Formulario de Registro</h2>
+    <form action="#" method="POST">
+  
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" required><br><br>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+
+
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="habitacion">Habitación:</label>
+        <input type="text" id="habitacion" name="habitacion" required><br><br>
+
+     
+        <label for="cama">Cama:</label>
+        <input type="number" id="cama" name="cama" min="1" required><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Consulta</title>
+</head>
+<body>
+    <h2>Formulario Consulta</h2>
+    <form action="#" method="POST">
+ 
+        <label for="nombre_mascota">Nombre de la mascota:</label>
+        <input type="text" id="nombre_mascota" name="nombre_mascota" required><br><br>
+
+       
+        <label for="edad_mascota">Edad de la mascota:</label>
+        <input type="number" id="edad_mascota" name="edad_mascota" min="0" required><br><br>
+
+        <label for="razon_ingreso">Razón de ingreso:</label>
+        <textarea id="razon_ingreso" name="razon_ingreso" rows="4" cols="50" required></textarea><br><br>
+
+        <label for="nombre_doctor">Nombre del doctor:</label>
+        <input type="text" id="nombre_doctor" name="nombre_doctor" required><br><br>
+
+  
+        <label for="area_doctor">Área del doctor:</label>
+        <select id="area_doctor" name="area_doctor" required>
+            <option value="medicina_general">Medicina general veterinaria</option>
+            <option value="Cirugía">Cirugía veterinaria</option>
+            <option value="dermatologia">Dermatología Veterinaria</option>
+            <option value="odontologia">Odontología Veterinaria</option>
+            <option value="otros">Otros</option>
+        </select><br><br>
+
+        <label for="fecha_consulta">Fecha de consulta:</label>
+        <input type="date" id="fecha_consulta" name="fecha_consulta" required><br><br>
+
+      
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
